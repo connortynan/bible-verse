@@ -9,8 +9,12 @@ The bible verse data is built using [`bible-databases`](https://github.com/scrol
 ## Install:
 1. `git clone https://github.com/connortynan/bible-verse.git && cd bible-verse`
 2. `make && sudo make install && make clean`
-3. this will install bible-verse to `/usr/games/` by default, as well as create the directory `/usr/share/games/bible-verses/` where formatted `.txt` files of the bible are stored.
+3. this will install bible-verse to `/usr/games/` by default, as well as create the directory `/usr/share/games/bible-verses/` where formatted `.txt` files of the bible are stored, so after restarting your terminal or opening a new one, it should be usable.
 
 ## Usage:
 After installing, as long as `/usr/games/` is in `$PATH`, running the command `bible-verse` should just work.
 Doing `bible-verse -h` shows the help menu for optional arguments to select specific books to choose from or changing the version.
+
+## Uninstall:
+1. navigate to the repo directory
+2. Run `make uninstall`
